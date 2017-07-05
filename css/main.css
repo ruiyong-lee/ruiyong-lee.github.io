@@ -1122,6 +1122,13 @@ pre .javascript .function {
   -o-transform: rotate(30deg);
   transform: rotate(30deg);
 }
+.post-footer .post-copyright {
+  margin: 2em 0 0;
+  padding: 0.5em 1em;
+  border-left: 3px solid #00c29f;
+  background-color: #f9f9f9;
+  list-style: none;
+}
 .posts-expand {
   padding-top: 40px;
 }
@@ -1678,7 +1685,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #53031c;
+  background: #4e20ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1804,13 +1811,16 @@ pre .javascript .function {
   margin: 0 5px;
 }
 .powered-by,
+.total-count,
 .theme-info {
   display: inline-block;
 }
-.powered-by {
+.powered-by,
+.theme-info {
   margin-right: 10px;
 }
-.powered-by::after {
+.powered-by::after,
+.theme-info::after {
   content: "|";
   padding-left: 10px;
 }
